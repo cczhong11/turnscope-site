@@ -14,7 +14,7 @@ Public routes once DNS and HTTPS are ready:
 - https://turnscope.tczhong.com/privacy/
 - https://turnscope.tczhong.com/support/
 
-Cloudflare DNS: CNAME `turnscope` → `cczhong11.github.io`, DNS only. GitHub issues the HTTPS certificate for this hostname. Confirm all routes respond over HTTPS before using them in App Store Connect.
+Cloudflare DNS: four A records named `turnscope`, DNS only: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`. The repository CNAME file contains `turnscope.tczhong.com`. GitHub issues the HTTPS certificate for this hostname. Confirm all routes respond over HTTPS before using them in App Store Connect.
 
 ## Preview
 
